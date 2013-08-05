@@ -1,0 +1,17 @@
+{
+    "name": "acquia/cloudapi-php-client",
+    "type": "library",
+    "description": "Acquia Cloud API client for PHP",
+    "keywords": ["acquia","cloud","api","clint"],
+    "homepage": "https://github.com/acquia/cloudapi-php-client",
+    "license": "GNU V2",
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acquia\\CloudApi": "lib/"
+        }
+    }
+}
